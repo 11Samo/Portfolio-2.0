@@ -1,0 +1,64 @@
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore dependencies
+/node_modules/
+/bower_components/
+
+# Ignore build output
+/dist/
+/build/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore environment-specific files
+.env
+
+# Ignore sensitive or private information
+secrets.json
+
+# Ignore compiled or minified files
+*.min.js
+*.min.css
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore cache directories
+/.cache/
+
+# Ignore generated files
+/generated/
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore image thumbnails
+*.thumb
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore compiled templates or views
+*.pyc
+*.class
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore system-specific files
+*.swp
+*.bak
+*.tmp

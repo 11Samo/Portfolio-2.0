@@ -95,9 +95,12 @@ header ul a {
 .hamburger .bar::after {
   top: 4.5px;
 }
-
 /* NAVBAR */
+
 /* LAYERS */
+
+$multiplier: 3;
+
 .hero-section {
   position: relative;
   background-color: #ecf4e9;
@@ -123,6 +126,7 @@ header ul a {
 
 .cloud-1 {
   position: absolute;
+
   z-index: 2;
   width: 1439px;
   top: 97px;
@@ -202,7 +206,6 @@ header ul a {
   font-weight: 700;
   line-height: 100px;
 }
-
 .mountain-9 {
   position: absolute;
   z-index: 10;
@@ -271,72 +274,236 @@ header ul a {
   width: 1440px;
 }
 
+// @media screen and (min-width: 3840px) {
+//   .sky-0 {
+//     width: 1437px * 2.8;
+//   }
+
+//   .cloud-1 {
+//     position: absolute;
+
+//     z-index: 2;
+//     width: 1439px * 2.8;
+//     top: 97px;
+//     left: 0;
+//   }
+
+//   .cloud-2 {
+//     position: absolute;
+//     z-index: 3;
+//     top: 100px;
+//     left: 0;
+//     width: 1439px * 2.8;
+//   }
+
+//   .mountain-3 {
+//     z-index: 4;
+//     position: absolute;
+//     top: 240px;
+//     left: 0;
+//     width: 1439px * 2.8;
+//   }
+
+//   .mountain-4 {
+//     z-index: 5;
+//     position: absolute;
+//     top: 310px;
+//     left: 0;
+//     width: 1439px * 2.8;
+//   }
+
+//   .mountain-5 {
+//     z-index: 6;
+//     position: absolute;
+//     top: 450px;
+//     left: 0;
+//     width: 1440px * 2.8;
+//   }
+
+//   .river-6 {
+//     z-index: 7;
+//     position: absolute;
+//     top: 530px;
+//     left: 680px;
+//     width: 187px * 2.8;
+//   }
+
+//   .snow-7 {
+//     z-index: 8;
+//     position: absolute;
+//     top: 75px;
+//     left: 45px;
+//     width: 1419px * 2.8;
+//   }
+
+//   .name {
+//     position: absolute;
+//     z-index: 9;
+//     top: 340px;
+//     left: 0;
+//     color: #fff;
+//     text-transform: uppercase;
+//     text-align: center;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//   }
+
+//   .name h2 {
+//     font-size: 100px;
+//     font-weight: 100;
+//     line-height: 150px;
+//   }
+
+//   .name h1 {
+//     font-size: 150px;
+//     font-weight: 700;
+//     line-height: 100px;
+//   }
+//   .mountain-9 {
+//     position: absolute;
+//     z-index: 10;
+//     top: 258px;
+//     right: 480px;
+//     width: 662px * 2.8;
+//   }
+
+//   .mountain-10 {
+//     position: absolute;
+//     z-index: 11;
+//     top: 116px;
+//     left: 0;
+//     width: 788px * 2.8;
+//   }
+
+//   .snow-11 {
+//     position: absolute;
+//     z-index: 12;
+//     top: 180px;
+//     left: 0;
+//     width: 1404px * 2.8;
+//   }
+
+//   .forest-12 {
+//     position: absolute;
+//     z-index: 13;
+//     top: 480px;
+//     right: 480px;
+//     width: 603px * 2.8;
+//   }
+
+//   .text {
+//     position: absolute;
+//     z-index: 14;
+//     top: 600px;
+//     left: 0;
+//     font-size: 80px;
+//     font-weight: 500;
+//     color: #e4e4e4;
+//     width: 100%;
+//     text-align: center;
+//   }
+
+//   .forest-14 {
+//     position: absolute;
+//     z-index: 15;
+//     bottom: -50px;
+//     left: 0;
+//     width: 1112px * 2.8;
+//   }
+
+//   .trees-15 {
+//     position: absolute;
+//     z-index: 16;
+//     bottom: 0;
+//     left: 0;
+//     width: 1437px * 2.8;
+//   }
+
+//   .snow-16 {
+//     position: absolute;
+//     z-index: 17;
+//     bottom: 40px;
+//     left: -10px;
+//     width: 1440px * 2.8;
+//   }
+// }
+
 @media screen and (max-width: 1920px) {
   .sky-0 {
-    width: 2011.8px;
+    width: 1437px * 1.4;
     left: 50%;
     top: -50px;
     transform: translateX(-50%);
   }
+
   .cloud-1 {
     position: absolute;
+
     z-index: 2;
-    width: 2014.6px;
+    width: 1439px * 1.4;
     top: 127px;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .cloud-2 {
     position: absolute;
     z-index: 3;
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
-    width: 2014.6px;
+    width: 1439px * 1.4;
   }
+
   .mountain-3 {
     z-index: 4;
     position: absolute;
     top: 240px;
     left: 0;
-    width: 2014.6px;
+    width: 1439px * 1.4;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .mountain-4 {
     z-index: 5;
     position: absolute;
     top: 310px;
     left: 0;
-    width: 2014.6px;
+    width: 1439px * 1.4;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .mountain-5 {
     z-index: 6;
     position: absolute;
     top: 450px;
     left: 0;
-    width: 2016px;
+    width: 1440px * 1.4;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .river-6 {
     z-index: 7;
     position: absolute;
     top: 543px;
     left: 780px;
-    width: 261.8px;
+    width: 187px * 1.4;
   }
+
   .snow-7 {
     z-index: 8;
     position: absolute;
     top: 75px;
     left: 0;
-    width: 1986.6px;
+    width: 1419px * 1.4;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .name {
     position: absolute;
     z-index: 9;
@@ -350,11 +517,13 @@ header ul a {
     flex-direction: column;
     width: 100%;
   }
+
   .name h2 {
     font-size: 100px;
     font-weight: 100;
     line-height: 150px;
   }
+
   .name h1 {
     font-size: 150px;
     font-weight: 700;
@@ -365,29 +534,33 @@ header ul a {
     z-index: 10;
     top: 258px;
     right: 0;
-    width: 926.8px;
+    width: 662px * 1.4;
   }
+
   .mountain-10 {
     position: absolute;
     z-index: 11;
     top: 116px;
     left: 0;
-    width: 1103.2px;
+    width: 788px * 1.4;
   }
+
   .snow-11 {
     position: absolute;
     z-index: 12;
     top: 180px;
     left: 0;
-    width: 1965.6px;
+    width: 1404px * 1.4;
   }
+
   .forest-12 {
     position: absolute;
     z-index: 13;
     top: 480px;
     right: 0;
-    width: 844.2px;
+    width: 603px * 1.4;
   }
+
   .text {
     position: absolute;
     z-index: 14;
@@ -399,28 +572,29 @@ header ul a {
     width: 100%;
     text-align: center;
   }
+
   .forest-14 {
     position: absolute;
     z-index: 15;
     bottom: -50px;
     left: 0;
-    width: 1556.8px;
+    width: 1112px * 1.4;
   }
+
   .trees-15 {
     position: absolute;
     z-index: 16;
     bottom: 0;
     left: 0;
-    width: 1437px;
+    width: 1437px * 1;
   }
+
   .snow-16 {
     position: absolute;
     z-index: 17;
     bottom: 40px;
     left: -10px;
-    width: 1440px;
+    width: 1440px * 1;
   }
 }
 /* LAYERS */
-
-/*# sourceMappingURL=hero-section.css.map */

@@ -275,7 +275,7 @@ header ul a {
   .sky-0 {
     width: 2011.8px;
     left: 50%;
-    top: -50px;
+    top: -10px;
     transform: translateX(-50%);
   }
   .cloud-1 {
@@ -421,6 +421,5 @@ header ul a {
     width: 1440px;
   }
 }
-/* LAYERS */
 
-/*# sourceMappingURL=hero-section.css.map */
+/* LAYERS */
