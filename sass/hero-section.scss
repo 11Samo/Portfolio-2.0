@@ -233,7 +233,7 @@ $multiplier: 3;
 .forest-12 {
   position: absolute;
   z-index: 13;
-  top: 480px;
+  // top: 480px;
   right: 480px;
   width: 603px;
 }
@@ -433,7 +433,7 @@ $multiplier: 3;
   .sky-0 {
     width: 1437px * 1.4;
     left: 50%;
-    top: -50px;
+    top: -90px;
     transform: translateX(-50%);
   }
 
@@ -442,7 +442,7 @@ $multiplier: 3;
 
     z-index: 2;
     width: 1439px * 1.4;
-    top: 127px;
+    top: 46px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -450,7 +450,7 @@ $multiplier: 3;
   .cloud-2 {
     position: absolute;
     z-index: 3;
-    top: 100px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 1439px * 1.4;
@@ -459,8 +459,7 @@ $multiplier: 3;
   .mountain-3 {
     z-index: 4;
     position: absolute;
-    top: 240px;
-    left: 0;
+    top: 190px;
     width: 1439px * 1.4;
     left: 50%;
     transform: translateX(-50%);
@@ -469,8 +468,7 @@ $multiplier: 3;
   .mountain-4 {
     z-index: 5;
     position: absolute;
-    top: 310px;
-    left: 0;
+    top: 280px;
     width: 1439px * 1.4;
     left: 50%;
     transform: translateX(-50%);
@@ -479,8 +477,7 @@ $multiplier: 3;
   .mountain-5 {
     z-index: 6;
     position: absolute;
-    top: 450px;
-    left: 0;
+    top: 390px;
     width: 1440px * 1.4;
     left: 50%;
     transform: translateX(-50%);
@@ -489,8 +486,8 @@ $multiplier: 3;
   .river-6 {
     z-index: 7;
     position: absolute;
-    top: 543px;
-    left: 780px;
+    top: 505px;
+    left: 910px;
     width: 187px * 1.4;
   }
 
@@ -532,17 +529,17 @@ $multiplier: 3;
   .mountain-9 {
     position: absolute;
     z-index: 10;
-    top: 258px;
+    top: 148px;
     right: 0;
-    width: 662px * 1.4;
+    width: 662px * 1.35;
   }
 
   .mountain-10 {
     position: absolute;
     z-index: 11;
-    top: 116px;
+    top: -44px;
     left: 0;
-    width: 788px * 1.4;
+    width: 788px * 1.35;
   }
 
   .snow-11 {
@@ -556,9 +553,9 @@ $multiplier: 3;
   .forest-12 {
     position: absolute;
     z-index: 13;
-    top: 480px;
+    bottom: -70px;
     right: 0;
-    width: 603px * 1.4;
+    width: 603px * 1.2;
   }
 
   .text {
@@ -576,17 +573,18 @@ $multiplier: 3;
   .forest-14 {
     position: absolute;
     z-index: 15;
-    bottom: -50px;
+    bottom: -10px;
     left: 0;
-    width: 1112px * 1.4;
+    width: 1112px * 1.15;
   }
 
   .trees-15 {
     position: absolute;
     z-index: 16;
-    bottom: 0;
-    left: 0;
+    bottom: -100px;
+    left: 50%;
     width: 1437px * 1;
+    transform: translateX(-50%);
   }
 
   .snow-16 {

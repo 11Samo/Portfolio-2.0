@@ -230,7 +230,6 @@ header ul a {
 .forest-12 {
   position: absolute;
   z-index: 13;
-  top: 480px;
   right: 480px;
   width: 603px;
 }
@@ -275,21 +274,21 @@ header ul a {
   .sky-0 {
     width: 2011.8px;
     left: 50%;
-    top: -50px;
+    top: -90px;
     transform: translateX(-50%);
   }
   .cloud-1 {
     position: absolute;
     z-index: 2;
     width: 2014.6px;
-    top: 127px;
+    top: 46px;
     left: 50%;
     transform: translateX(-50%);
   }
   .cloud-2 {
     position: absolute;
     z-index: 3;
-    top: 100px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     width: 2014.6px;
@@ -297,8 +296,7 @@ header ul a {
   .mountain-3 {
     z-index: 4;
     position: absolute;
-    top: 240px;
-    left: 0;
+    top: 190px;
     width: 2014.6px;
     left: 50%;
     transform: translateX(-50%);
@@ -306,8 +304,7 @@ header ul a {
   .mountain-4 {
     z-index: 5;
     position: absolute;
-    top: 310px;
-    left: 0;
+    top: 280px;
     width: 2014.6px;
     left: 50%;
     transform: translateX(-50%);
@@ -315,8 +312,7 @@ header ul a {
   .mountain-5 {
     z-index: 6;
     position: absolute;
-    top: 450px;
-    left: 0;
+    top: 390px;
     width: 2016px;
     left: 50%;
     transform: translateX(-50%);
@@ -324,8 +320,8 @@ header ul a {
   .river-6 {
     z-index: 7;
     position: absolute;
-    top: 543px;
-    left: 780px;
+    top: 505px;
+    left: 910px;
     width: 261.8px;
   }
   .snow-7 {
@@ -363,16 +359,16 @@ header ul a {
   .mountain-9 {
     position: absolute;
     z-index: 10;
-    top: 258px;
+    top: 148px;
     right: 0;
-    width: 926.8px;
+    width: 893.7px;
   }
   .mountain-10 {
     position: absolute;
     z-index: 11;
-    top: 116px;
+    top: -44px;
     left: 0;
-    width: 1103.2px;
+    width: 1063.8px;
   }
   .snow-11 {
     position: absolute;
@@ -384,9 +380,9 @@ header ul a {
   .forest-12 {
     position: absolute;
     z-index: 13;
-    top: 480px;
+    bottom: -70px;
     right: 0;
-    width: 844.2px;
+    width: 723.6px;
   }
   .text {
     position: absolute;
@@ -402,16 +398,17 @@ header ul a {
   .forest-14 {
     position: absolute;
     z-index: 15;
-    bottom: -50px;
+    bottom: -10px;
     left: 0;
-    width: 1556.8px;
+    width: 1278.8px;
   }
   .trees-15 {
     position: absolute;
     z-index: 16;
-    bottom: 0;
-    left: 0;
+    bottom: -100px;
+    left: 50%;
     width: 1437px;
+    transform: translateX(-50%);
   }
   .snow-16 {
     position: absolute;
