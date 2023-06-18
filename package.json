@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:scss": "sass --watch ./sass/hero-section.scss css/hero-section.css"
+    "compile:scss": "sass --watch sass:css"
   },
   "author": "",
   "license": "ISC",

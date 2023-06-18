@@ -436,6 +436,10 @@ header ul a {
   border-radius: 50%;
 }
 
+.container {
+  overflow: hidden;
+}
+
 /* LAYERS */
 
 /*# sourceMappingURL=hero-section.css.map */
