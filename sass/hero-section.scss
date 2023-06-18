@@ -206,21 +206,21 @@ $multiplier: 3;
   font-weight: 700;
   line-height: 100px;
 }
-.mountain-9 {
-  position: absolute;
-  z-index: 10;
-  top: 258px;
-  right: 480px;
-  width: 662px;
-}
+// .mountain-9 {
+//   position: absolute;
+//   z-index: 10;
+//   top: 258px;
+//   right: 480px;
+//   width: 662px;
+// }
 
-.mountain-10 {
-  position: absolute;
-  z-index: 11;
-  top: 116px;
-  left: 0;
-  width: 788px;
-}
+// .mountain-10 {
+//   position: absolute;
+//   z-index: 11;
+//   top: 116px;
+//   left: 0;
+//   width: 788px;
+// }
 
 .snow-11 {
   position: absolute;
@@ -250,13 +250,13 @@ $multiplier: 3;
   text-align: center;
 }
 
-.forest-14 {
-  position: absolute;
-  z-index: 15;
-  bottom: -50px;
-  left: 0;
-  width: 1112px;
-}
+// .forest-14 {
+//   position: absolute;
+//   z-index: 15;
+//   bottom: -50px;
+//   left: 0;
+//   width: 1112px;
+// }
 
 .trees-15 {
   position: absolute;
@@ -428,6 +428,59 @@ $multiplier: 3;
 //     width: 1440px * 2.8;
 //   }
 // }
+.mountain-9 {
+  position: absolute;
+  z-index: 10;
+  top: 258px;
+  right: 0;
+  width: 662px;
+
+  @media screen and (max-width: 1920px) {
+    top: 148px;
+    // width: 662px * 1.35;
+    width: 46%;
+  }
+
+  @media screen and (max-width: 1669px) {
+    top: 198px !important;
+    // width: 662px * 1.35;
+    width: 40%;
+  }
+}
+
+.mountain-10 {
+  position: absolute;
+  z-index: 11;
+  width: 788px;
+
+  @media screen and (max-width: 1920px) {
+    top: 76px;
+    left: 0;
+    // width: 788px * 1.35;
+    width: 46%;
+  }
+
+  @media screen and (max-width: 1669px) {
+    top: 156px;
+    left: 0;
+    width: 46%;
+  }
+}
+
+.forest-14 {
+  position: absolute;
+  z-index: 15;
+  bottom: -50px;
+  left: 0;
+  width: 1112px;
+
+  @media screen and (max-width: 1920px) {
+    bottom: 0;
+    left: 0;
+    // width: 1112px * 1.15;
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 1920px) {
   .sky-0 {
@@ -526,21 +579,21 @@ $multiplier: 3;
     font-weight: 700;
     line-height: 100px;
   }
-  .mountain-9 {
-    position: absolute;
-    z-index: 10;
-    top: 148px;
-    right: 0;
-    width: 662px * 1.35;
-  }
+  // .mountain-9 {
+  //   position: absolute;
+  //   z-index: 10;
+  //   top: 148px;
+  //   right: 0;
+  //   width: 662px * 1.35;
+  // }
 
-  .mountain-10 {
-    position: absolute;
-    z-index: 11;
-    top: -44px;
-    left: 0;
-    width: 788px * 1.35;
-  }
+  // .mountain-10 {
+  //   position: absolute;
+  //   z-index: 11;
+  //   top: -44px;
+  //   left: 0;
+  //   width: 788px * 1.35;
+  // }
 
   .snow-11 {
     position: absolute;
@@ -570,13 +623,13 @@ $multiplier: 3;
     text-align: center;
   }
 
-  .forest-14 {
-    position: absolute;
-    z-index: 15;
-    bottom: -10px;
-    left: 0;
-    width: 1112px * 1.15;
-  }
+  // .forest-14 {
+  //   position: absolute;
+  //   z-index: 15;
+  //   bottom: -10px;
+  //   left: 0;
+  //   width: 1112px * 1.15;
+  // }
 
   .trees-15 {
     position: absolute;

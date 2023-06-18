@@ -203,22 +203,6 @@ header ul a {
   line-height: 100px;
 }
 
-.mountain-9 {
-  position: absolute;
-  z-index: 10;
-  top: 258px;
-  right: 480px;
-  width: 662px;
-}
-
-.mountain-10 {
-  position: absolute;
-  z-index: 11;
-  top: 116px;
-  left: 0;
-  width: 788px;
-}
-
 .snow-11 {
   position: absolute;
   z-index: 12;
@@ -246,14 +230,6 @@ header ul a {
   text-align: center;
 }
 
-.forest-14 {
-  position: absolute;
-  z-index: 15;
-  bottom: -50px;
-  left: 0;
-  width: 1112px;
-}
-
 .trees-15 {
   position: absolute;
   z-index: 16;
@@ -268,6 +244,61 @@ header ul a {
   bottom: 40px;
   left: -10px;
   width: 1440px;
+}
+
+.mountain-9 {
+  position: absolute;
+  z-index: 10;
+  top: 258px;
+  right: 0;
+  width: 662px;
+}
+@media screen and (max-width: 1920px) {
+  .mountain-9 {
+    top: 148px;
+    width: 46%;
+  }
+}
+@media screen and (max-width: 1669px) {
+  .mountain-9 {
+    top: 198px !important;
+    width: 40%;
+  }
+}
+
+.mountain-10 {
+  position: absolute;
+  z-index: 11;
+  width: 788px;
+}
+@media screen and (max-width: 1920px) {
+  .mountain-10 {
+    top: 76px;
+    left: 0;
+    width: 46%;
+  }
+}
+@media screen and (max-width: 1669px) {
+  .mountain-10 {
+    top: 156px;
+    left: 0;
+    width: 46%;
+  }
+}
+
+.forest-14 {
+  position: absolute;
+  z-index: 15;
+  bottom: -50px;
+  left: 0;
+  width: 1112px;
+}
+@media screen and (max-width: 1920px) {
+  .forest-14 {
+    bottom: 0;
+    left: 0;
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1920px) {
@@ -356,20 +387,6 @@ header ul a {
     font-weight: 700;
     line-height: 100px;
   }
-  .mountain-9 {
-    position: absolute;
-    z-index: 10;
-    top: 148px;
-    right: 0;
-    width: 893.7px;
-  }
-  .mountain-10 {
-    position: absolute;
-    z-index: 11;
-    top: -44px;
-    left: 0;
-    width: 1063.8px;
-  }
   .snow-11 {
     position: absolute;
     z-index: 12;
@@ -394,13 +411,6 @@ header ul a {
     color: #e4e4e4;
     width: 100%;
     text-align: center;
-  }
-  .forest-14 {
-    position: absolute;
-    z-index: 15;
-    bottom: -10px;
-    left: 0;
-    width: 1278.8px;
   }
   .trees-15 {
     position: absolute;
