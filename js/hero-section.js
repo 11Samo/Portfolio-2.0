@@ -52,19 +52,48 @@ let timeline = gsap.timeline();
 //       el,
 //       {
 //         // top: `${el.offsetHeight / 2 + +el.dataset.distance}px`,
-//         top: `${100}px`,
+//         top: `${2000}px`,
 //         duration: 3.5,
 //         ease: "power3.out",
 //       },
 //       "1"
 //     );
-//     console.log(el, el.offsetHeight / 2 + +el.dataset.distance);
 //   });
 
 Array.from(parallaxEl)
   .filter((el) => !el.classList.contains("text"))
+  .filter((el) => !el.classList.contains("bottom"))
   .forEach((el) => {
-    console.log(el);
+    timeline.fromTo(
+      el,
+      {
+        top: `${-3000}px`,
+      },
+      {
+        top: window.getComputedStyle(el).getPropertyValue("top"),
+        duration: 0.1,
+        ease: "power3.out",
+        // delay: 0.5,
+      }
+    );
+  });
+
+Array.from(parallaxEl)
+  .filter((el) => !el.classList.contains("text"))
+  .filter((el) => el.classList.contains("bottom"))
+  .forEach((el) => {
+    timeline.fromTo(
+      el,
+      {
+        bottom: `${-700}px`,
+      },
+      {
+        bottom: window.getComputedStyle(el).getPropertyValue("bottom"),
+        duration: 0.1,
+        ease: "power3.out",
+        // delay: 0.5,
+      }
+    );
   });
 
 timeline
@@ -76,7 +105,7 @@ timeline
         document.querySelector(".name h1").getBoundingClientRect().top,
       duration: 2,
     },
-    "2.5"
+    "1"
   )
   .from(
     ".name h2",
@@ -85,7 +114,7 @@ timeline
       opacity: 0,
       duration: 1.5,
     },
-    "3"
+    "2"
   )
   .from(
     ".portfolio h3",
@@ -94,7 +123,7 @@ timeline
       opacity: 0,
       duration: 3,
     },
-    "3"
+    "2"
   )
   .from(
     ".hide",
@@ -104,3 +133,32 @@ timeline
     },
     "3"
   );
+
+// const numSnowflakes = 50; // Number of snowflakes to create
+// const snowContainer = document.getElementById("snow-container");
+
+// for (let i = 0; i < numSnowflakes; i++) {
+//   const snowflake = document.createElement("div");
+//   snowflake.classList.add("snowflake");
+//   snowContainer.appendChild(snowflake);
+// }
+
+// const snowflakes = document.querySelectorAll(".snowflake");
+
+// function animateSnowflakes() {
+//   gsap.set(snowflakes, { y: 0, opacity: 1 });
+
+//   gsap.to(snowflakes, {
+//     y: "100%",
+//     opacity: 0,
+//     duration: 2,
+//     ease: "power1.inOut",
+//     stagger: {
+//       each: 0.1,
+//       from: "random",
+//     },
+//     onComplete: animateSnowflakes,
+//   });
+// }
+
+// animateSnowflakes();
