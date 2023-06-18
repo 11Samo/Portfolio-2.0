@@ -234,7 +234,7 @@ header ul a {
   width: 603px;
 }
 
-.text {
+.portfolio {
   position: absolute;
   z-index: 14;
   top: 600px;
@@ -384,7 +384,7 @@ header ul a {
     right: 0;
     width: 723.6px;
   }
-  .text2 {
+  .portfolio {
     position: absolute;
     z-index: 14;
     top: 600px;

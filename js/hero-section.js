@@ -61,6 +61,12 @@ let timeline = gsap.timeline();
 //     console.log(el, el.offsetHeight / 2 + +el.dataset.distance);
 //   });
 
+Array.from(parallaxEl)
+  .filter((el) => !el.classList.contains("text"))
+  .forEach((el) => {
+    console.log(el);
+  });
+
 timeline
   .from(
     ".name h1",
@@ -78,6 +84,15 @@ timeline
       y: -150,
       opacity: 0,
       duration: 1.5,
+    },
+    "3"
+  )
+  .from(
+    ".portfolio h3",
+    {
+      y: 250,
+      opacity: 0,
+      duration: 3,
     },
     "3"
   )
