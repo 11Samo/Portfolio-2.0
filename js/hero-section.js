@@ -134,31 +134,35 @@ timeline
     "3"
   );
 
-// const numSnowflakes = 50; // Number of snowflakes to create
-// const snowContainer = document.getElementById("snow-container");
+const numSnowflakes = 50; // Number of snowflakes to create
+const snowContainer = document.getElementById("snow-container");
 
-// for (let i = 0; i < numSnowflakes; i++) {
-//   const snowflake = document.createElement("div");
-//   snowflake.classList.add("snowflake");
-//   snowContainer.appendChild(snowflake);
-// }
+function createSnowflake() {
+  const snowflake = document.createElement("div");
+  snowflake.classList.add("snowflake");
+  snowContainer.appendChild(snowflake);
 
-// const snowflakes = document.querySelectorAll(".snowflake");
+  return snowflake;
+}
 
-// function animateSnowflakes() {
-//   gsap.set(snowflakes, { y: 0, opacity: 1 });
+function animateSnowflake(snowflake) {
+  const x = gsap.utils.random(0, window.innerWidth);
+  const y = gsap.utils.random(-window.innerHeight, -10);
+  const duration = gsap.utils.random(8, 20);
 
-//   gsap.to(snowflakes, {
-//     y: "100%",
-//     opacity: 0,
-//     duration: 2,
-//     ease: "power1.inOut",
-//     stagger: {
-//       each: 0.1,
-//       from: "random",
-//     },
-//     onComplete: animateSnowflakes,
-//   });
-// }
+  gsap.set(snowflake, { x, y });
 
-// animateSnowflakes();
+  gsap.to(snowflake, {
+    y: window.innerHeight + 50,
+    ease: "power1.inOut",
+    duration,
+    onComplete: () => {
+      animateSnowflake(snowflake);
+    },
+  });
+}
+
+for (let i = 0; i < numSnowflakes; i++) {
+  const snowflake = createSnowflake();
+  animateSnowflake(snowflake);
+}
