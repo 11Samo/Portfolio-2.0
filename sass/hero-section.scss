@@ -493,6 +493,11 @@ $xlarge: 1200px;
   //   bottom: 10%;
   //   z-index: 16;
   // }
+  @media screen and (max-width: $xlarge) {
+    top: 55%;
+    z-index: 11;
+  }
+
   @media screen and (max-width: $large) {
     top: 55%;
     z-index: 11;
