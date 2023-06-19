@@ -120,13 +120,25 @@ header ul a {
   top: 0;
   left: 0;
 }
+@media screen and (max-width: 320px) {
+  .sky-0 {
+    width: 140%;
+  }
+}
 
 .cloud-1 {
   position: absolute;
   z-index: 2;
   width: 1439px;
   top: 97px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 320px) {
+  .cloud-1 {
+    width: 250%;
+    top: 10% !important;
+  }
 }
 
 .cloud-2 {
@@ -135,14 +147,40 @@ header ul a {
   top: 100px;
   left: 0;
   width: 1439px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 320px) {
+  .cloud-2 {
+    width: 190%;
+    top: 10% !important;
+  }
 }
 
 .mountain-3 {
   z-index: 4;
   position: absolute;
   top: 240px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 1439px;
+}
+@media screen and (max-width: 320px) {
+  .mountain-3 {
+    width: 190%;
+    top: 29% !important;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1000px) {
+  .mountain-3 {
+    top: 31% !important;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 820px) {
+  .mountain-3 {
+    width: 160%;
+    top: 30% !important;
+  }
 }
 
 .mountain-4 {
@@ -152,6 +190,12 @@ header ul a {
   left: 0;
   width: 1439px;
 }
+@media screen and (max-width: 320px) {
+  .mountain-4 {
+    width: 190%;
+    top: 38% !important;
+  }
+}
 
 .mountain-5 {
   z-index: 6;
@@ -160,6 +204,12 @@ header ul a {
   left: 0;
   width: 1440px;
 }
+@media screen and (max-width: 320px) {
+  .mountain-5 {
+    width: 190%;
+    top: 48% !important;
+  }
+}
 
 .river-6 {
   z-index: 7;
@@ -167,6 +217,13 @@ header ul a {
   top: 530px;
   left: 680px;
   width: 187px;
+}
+@media screen and (max-width: 320px) {
+  .river-6 {
+    width: 58%;
+    top: 52% !important;
+    left: 12%;
+  }
 }
 
 .snow-7 {
@@ -182,7 +239,6 @@ header ul a {
   z-index: 9;
   top: 340px;
   left: 0;
-  /* transform: translateX(-50%); */
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -190,60 +246,66 @@ header ul a {
   flex-direction: column;
   width: 100%;
 }
-
 .name h2 {
   font-size: 100px;
   font-weight: 100;
   line-height: 150px;
 }
-
 .name h1 {
   font-size: 150px;
   font-weight: 700;
   line-height: 100px;
 }
-
-.snow-11 {
+.name .snow-11 {
   position: absolute;
   z-index: 12;
   top: 180px;
   left: 0;
   width: 1404px;
 }
-
-.forest-12 {
-  position: absolute;
-  z-index: 13;
-  right: 480px;
-  width: 603px;
-}
-
-.portfolio {
-  position: absolute;
-  z-index: 14;
-  top: 600px;
-  left: 0;
-  font-size: 80px;
-  font-weight: 500;
-  color: #e4e4e4;
-  width: 100%;
-  text-align: center;
-}
-
-.trees-15 {
-  position: absolute;
-  z-index: 16;
-  bottom: 0;
-  left: 0;
-  width: 1437px;
-}
-
-.snow-16 {
+.name .snow-16 {
   position: absolute;
   z-index: 17;
   bottom: 40px;
   left: -10px;
   width: 1440px;
+}
+@media screen and (min-height: 759px) {
+  .name {
+    top: 30%;
+  }
+}
+@media screen and (max-height: 759px) {
+  .name {
+    top: 10%;
+  }
+  .name h1 {
+    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+  }
+  .name h2 {
+    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 320px) {
+  .name {
+    top: 40%;
+  }
+  .name h1 {
+    font-size: 60px;
+    line-height: 2;
+  }
+  .name h2 {
+    font-size: 40px;
+    line-height: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+  }
+}
+@media screen and (max-height: 360px) {
+  .name {
+    top: 30%;
+    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .mountain-9 {
@@ -265,17 +327,25 @@ header ul a {
     width: 40%;
   }
 }
+@media screen and (max-width: 320px) {
+  .mountain-9 {
+    width: 90%;
+    top: 58% !important;
+    right: -5%;
+  }
+}
 
 .mountain-10 {
   position: absolute;
   z-index: 11;
   width: 788px;
+  left: 0;
 }
 @media screen and (max-width: 1920px) {
   .mountain-10 {
-    top: 76px;
+    top: -22px;
     left: 0;
-    width: 46%;
+    width: 55%;
   }
 }
 @media screen and (max-width: 1669px) {
@@ -283,6 +353,79 @@ header ul a {
     top: 156px;
     left: 0;
     width: 46%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .mountain-10 {
+    width: 78%;
+    top: 65%;
+    left: 0;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1000px) {
+  .mountain-10 {
+    width: 150%;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 820px) {
+  .mountain-10 {
+    width: 100%;
+    top: 57% !important;
+  }
+}
+
+.snow-11 {
+  position: absolute;
+  z-index: 12;
+  top: 180px;
+  left: 0;
+  width: 1965.6px;
+}
+
+.forest-12 {
+  position: absolute;
+  z-index: 13;
+  right: 480px;
+  width: 603px;
+}
+@media screen and (max-width: 1920px) {
+  .forest-12 {
+    bottom: 0;
+    right: 0;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .forest-12 {
+    width: 78%;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.portfolio {
+  position: absolute;
+  left: 0;
+  font-size: 80px;
+  font-weight: 500;
+  color: #e4e4e4;
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  z-index: 16;
+}
+@media screen and (min-height: 325px) and (max-height: 700px) {
+  .portfolio {
+    top: 55% !important;
+    font-size: 40px;
+    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 320px) {
+  .portfolio {
+    top: 51%;
+    font-size: 40px;
+    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -297,145 +440,66 @@ header ul a {
   .forest-14 {
     bottom: 0;
     left: 0;
-    width: 60%;
+    width: 71%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .forest-14 {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 1000px) {
+  .forest-14 {
+    width: 150%;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 820px) {
+  .forest-14 {
+    width: 100%;
   }
 }
 
+.trees-15 {
+  position: absolute;
+  z-index: 16;
+  bottom: 0;
+  left: 0;
+  width: 1437px;
+}
 @media screen and (max-width: 1920px) {
-  .sky-0 {
-    width: 2011.8px;
-    left: 50%;
-    top: -90px;
-    transform: translateX(-50%);
-  }
-  .cloud-1 {
-    position: absolute;
-    z-index: 2;
-    width: 2014.6px;
-    top: 46px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .cloud-2 {
-    position: absolute;
-    z-index: 3;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2014.6px;
-  }
-  .mountain-3 {
-    z-index: 4;
-    position: absolute;
-    top: 190px;
-    width: 2014.6px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .mountain-4 {
-    z-index: 5;
-    position: absolute;
-    top: 280px;
-    width: 2014.6px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .mountain-5 {
-    z-index: 6;
-    position: absolute;
-    top: 390px;
-    width: 2016px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .river-6 {
-    z-index: 7;
-    position: absolute;
-    top: 505px;
-    left: 910px;
-    width: 261.8px;
-  }
-  .snow-7 {
-    z-index: 8;
-    position: absolute;
-    top: 75px;
-    left: 0;
-    width: 1986.6px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .name {
-    position: absolute;
-    z-index: 9;
-    top: 340px;
-    left: 0;
-    /* transform: translateX(-50%); */
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .name h2 {
-    font-size: 100px;
-    font-weight: 100;
-    line-height: 150px;
-  }
-  .name h1 {
-    font-size: 150px;
-    font-weight: 700;
-    line-height: 100px;
-  }
-  .snow-11 {
-    position: absolute;
-    z-index: 12;
-    top: 180px;
-    left: 0;
-    width: 1965.6px;
-  }
-  .forest-12 {
-    position: absolute;
-    z-index: 13;
-    bottom: -70px;
-    right: 0;
-    width: 723.6px;
-  }
-  .portfolio {
-    position: absolute;
-    z-index: 14;
-    top: 600px;
-    left: 0;
-    font-size: 80px;
-    font-weight: 500;
-    color: #e4e4e4;
-    width: 100%;
-    text-align: center;
-  }
   .trees-15 {
-    position: absolute;
-    z-index: 16;
-    bottom: -100px;
+    bottom: 0;
     left: 50%;
-    width: 1437px;
+    width: 90%;
     transform: translateX(-50%);
-  }
-  .snow-16 {
-    position: absolute;
-    z-index: 17;
-    bottom: 40px;
-    left: -10px;
-    width: 1440px;
   }
 }
+@media screen and (max-width: 320px) {
+  .trees-15 {
+    width: 110%;
+    bottom: 0;
+  }
+}
+
+.snow-16 {
+  position: absolute;
+  z-index: 17;
+  bottom: 40px;
+  left: -10px;
+  width: 1440px;
+}
+
 #snow-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   pointer-events: none;
   z-index: 99999;
+  overflow: hidden;
 }
 
 .snowflake {
