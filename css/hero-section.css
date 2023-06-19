@@ -218,6 +218,13 @@ header ul a {
   left: 680px;
   width: 187px;
 }
+@media screen and (max-width: 1200px) {
+  .river-6 {
+    width: 31%;
+    top: 42% !important;
+    left: 27%;
+  }
+}
 @media screen and (max-width: 992px) {
   .river-6 {
     width: 31%;
@@ -322,6 +329,13 @@ header ul a {
   right: 0;
   width: 662px;
 }
+@media screen and (max-width: 1200px) {
+  .mountain-9 {
+    width: 68%;
+    top: 17% !important;
+    right: -16%;
+  }
+}
 @media screen and (max-width: 992px) {
   .mountain-9 {
     width: 90%;
@@ -349,6 +363,13 @@ header ul a {
   z-index: 11;
   width: 788px;
   left: 0;
+}
+@media screen and (max-width: 1200px) {
+  .mountain-10 {
+    width: 78%;
+    top: 25% !important;
+    left: 0;
+  }
 }
 @media screen and (max-width: 992px) {
   .mountain-10 {
@@ -396,6 +417,13 @@ header ul a {
   z-index: 13;
   right: 480px;
   width: 603px;
+}
+@media screen and (max-width: 1200px) {
+  .forest-12 {
+    width: 67%;
+    bottom: -41px !important;
+    right: 0;
+  }
 }
 @media screen and (max-width: 992px) {
   .forest-12 {
@@ -458,6 +486,13 @@ header ul a {
   left: 0;
   width: 1112px;
 }
+@media screen and (max-width: 1200px) {
+  .forest-14 {
+    width: 96%;
+    right: 0;
+    bottom: 0;
+  }
+}
 @media screen and (max-width: 992px) {
   .forest-14 {
     width: 96%;
@@ -497,6 +532,11 @@ header ul a {
   left: 50%;
   width: 1437px;
   transform: translateX(-50%);
+}
+@media screen and (max-width: 1200px) {
+  .trees-15 {
+    width: 102%;
+  }
 }
 @media screen and (max-width: 992px) {
   .trees-15 {
