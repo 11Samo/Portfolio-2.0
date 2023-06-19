@@ -120,6 +120,13 @@ header ul a {
   top: 0;
   left: 0;
 }
+@media screen and (min-width: 1201px) {
+  .sky-0 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+  }
+}
 @media screen and (max-width: 575px) {
   .sky-0 {
     width: 140%;
@@ -133,6 +140,12 @@ header ul a {
   top: 97px;
   left: 50%;
   transform: translateX(-50%);
+}
+@media screen and (min-width: 1201px) {
+  .cloud-1 {
+    width: 109%;
+    top: 5% !important;
+  }
 }
 @media screen and (max-width: 575px) {
   .cloud-1 {
@@ -150,6 +163,12 @@ header ul a {
   left: 50%;
   transform: translateX(-50%);
 }
+@media screen and (min-width: 1201px) {
+  .cloud-2 {
+    width: 110%;
+    top: -5% !important;
+  }
+}
 @media screen and (max-width: 575px) {
   .cloud-2 {
     width: 190%;
@@ -164,6 +183,12 @@ header ul a {
   left: 50%;
   transform: translateX(-50%);
   width: 1439px;
+}
+@media screen and (min-width: 1201px) {
+  .mountain-3 {
+    width: 110%;
+    top: 11% !important;
+  }
 }
 @media screen and (max-width: 575px) {
   .mountain-3 {
@@ -190,6 +215,14 @@ header ul a {
   left: 0;
   width: 1439px;
 }
+@media screen and (min-width: 1201px) {
+  .mountain-4 {
+    width: 110%;
+    top: 19% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 575px) {
   .mountain-4 {
     width: 190%;
@@ -204,6 +237,14 @@ header ul a {
   left: 0;
   width: 1440px;
 }
+@media screen and (min-width: 1201px) {
+  .mountain-5 {
+    width: 108%;
+    top: 29% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 575px) {
   .mountain-5 {
     width: 190%;
@@ -217,6 +258,13 @@ header ul a {
   top: 530px;
   left: 680px;
   width: 187px;
+}
+@media screen and (min-width: 1201px) {
+  .river-6 {
+    width: 21%;
+    top: 40% !important;
+    left: 47%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .river-6 {
@@ -270,19 +318,17 @@ header ul a {
   font-weight: 700;
   line-height: 100px;
 }
-.name .snow-11 {
-  position: absolute;
-  z-index: 12;
-  top: 180px;
-  left: 0;
-  width: 1404px;
-}
-.name .snow-16 {
-  position: absolute;
-  z-index: 17;
-  bottom: 40px;
-  left: -10px;
-  width: 1440px;
+@media screen and (min-width: 1201px) {
+  .name {
+    top: 26% !important;
+  }
+  .name h1 {
+    font-size: 200px;
+  }
+  .name h2 {
+    font-size: 150px;
+    line-height: 200px;
+  }
 }
 @media screen and (min-height: 759px) {
   .name {
@@ -322,12 +368,35 @@ header ul a {
   }
 }
 
+.snow-11 {
+  position: absolute;
+  z-index: 12;
+  top: 180px;
+  left: 0;
+  width: 1404px;
+}
+
+.snow-16 {
+  position: absolute;
+  z-index: 17;
+  bottom: 40px;
+  left: -10px;
+  width: 1440px;
+}
+
 .mountain-9 {
   position: absolute;
   z-index: 10;
   top: 258px;
   right: 0;
   width: 662px;
+}
+@media screen and (min-width: 1201px) {
+  .mountain-9 {
+    width: 61%;
+    top: 3% !important;
+    right: -16%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .mountain-9 {
@@ -363,6 +432,13 @@ header ul a {
   z-index: 11;
   width: 788px;
   left: 0;
+}
+@media screen and (min-width: 1201px) {
+  .mountain-10 {
+    width: 63%;
+    top: 4% !important;
+    left: 0;
+  }
 }
 @media screen and (max-width: 1200px) {
   .mountain-10 {
@@ -418,6 +494,13 @@ header ul a {
   right: 480px;
   width: 603px;
 }
+@media screen and (min-width: 1201px) {
+  .forest-12 {
+    width: 53%;
+    bottom: 0 !important;
+    right: 0;
+  }
+}
 @media screen and (max-width: 1200px) {
   .forest-12 {
     width: 67%;
@@ -458,6 +541,12 @@ header ul a {
   bottom: 10%;
   z-index: 16;
 }
+@media screen and (min-width: 1201px) {
+  .portfolio {
+    top: 55%;
+    z-index: 11;
+  }
+}
 @media screen and (max-width: 1200px) {
   .portfolio {
     top: 55%;
@@ -491,6 +580,13 @@ header ul a {
   bottom: -50px;
   left: 0;
   width: 1112px;
+}
+@media screen and (min-width: 1201px) {
+  .forest-14 {
+    width: 66%;
+    right: 0;
+    bottom: 0;
+  }
 }
 @media screen and (max-width: 1200px) {
   .forest-14 {
@@ -538,6 +634,11 @@ header ul a {
   left: 50%;
   width: 1437px;
   transform: translateX(-50%);
+}
+@media screen and (min-width: 1201px) {
+  .trees-15 {
+    width: 102%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .trees-15 {

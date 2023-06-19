@@ -121,6 +121,7 @@ $small: 575px;
 $medium: 786px;
 $large: 992px;
 $xlarge: 1200px;
+$xxlarge: 1201px;
 
 .sky-0 {
   position: absolute;
@@ -128,6 +129,12 @@ $xlarge: 1200px;
   width: 1437px;
   top: 0;
   left: 0;
+
+  @media screen and (min-width: $xxlarge) {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+  }
 
   @media screen and (max-width: $small) {
     width: 140%;
@@ -142,6 +149,11 @@ $xlarge: 1200px;
   top: 97px;
   left: 50%;
   transform: translateX(-50%);
+
+  @media screen and (min-width: $xxlarge) {
+    width: 109%;
+    top: 5% !important;
+  }
 
   @media screen and (max-width: $small) {
     width: 250%;
@@ -158,6 +170,11 @@ $xlarge: 1200px;
   left: 50%;
   transform: translateX(-50%);
 
+  @media screen and (min-width: $xxlarge) {
+    width: 110%;
+    top: -5% !important;
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 10% !important;
@@ -171,6 +188,11 @@ $xlarge: 1200px;
   left: 50%;
   transform: translateX(-50%);
   width: 1439px;
+
+  @media screen and (min-width: $xxlarge) {
+    width: 110%;
+    top: 11% !important;
+  }
 
   @media screen and (max-width: $small) {
     width: 190%;
@@ -194,6 +216,13 @@ $xlarge: 1200px;
   left: 0;
   width: 1439px;
 
+  @media screen and (min-width: $xxlarge) {
+    width: 110%;
+    top: 19% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 38% !important;
@@ -207,6 +236,13 @@ $xlarge: 1200px;
   left: 0;
   width: 1440px;
 
+  @media screen and (min-width: $xxlarge) {
+    width: 108%;
+    top: 29% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 48% !important;
@@ -219,6 +255,12 @@ $xlarge: 1200px;
   top: 530px;
   left: 680px;
   width: 187px;
+
+  @media screen and (min-width: $xxlarge) {
+    width: 21%;
+    top: 40% !important;
+    left: 47%;
+  }
 
   @media screen and (max-width: $xlarge) {
     width: 31%;
@@ -271,25 +313,19 @@ $xlarge: 1200px;
     line-height: 100px;
   }
 
-  .snow-11 {
-    position: absolute;
-    z-index: 12;
-    top: 180px;
-    left: 0;
-    width: 1404px;
-  }
-
-  .snow-16 {
-    position: absolute;
-    z-index: 17;
-    bottom: 40px;
-    left: -10px;
-    width: 1440px;
-  }
-
   // @media screen and (max-width: 1920px) {
   //   top: 30%;
   // }
+  @media screen and (min-width: $xxlarge) {
+    top: 26% !important;
+    h1 {
+      font-size: 200px;
+    }
+    h2 {
+      font-size: 150px;
+      line-height: 200px;
+    }
+  }
 
   @media screen and (min-height: 759px) {
     top: 30%;
@@ -326,6 +362,22 @@ $xlarge: 1200px;
   }
 }
 
+.snow-11 {
+  position: absolute;
+  z-index: 12;
+  top: 180px;
+  left: 0;
+  width: 1404px;
+}
+
+.snow-16 {
+  position: absolute;
+  z-index: 17;
+  bottom: 40px;
+  left: -10px;
+  width: 1440px;
+}
+
 .mountain-9 {
   position: absolute;
   z-index: 10;
@@ -344,6 +396,12 @@ $xlarge: 1200px;
   //   // width: 662px * 1.35;
   //   width: 40%;
   // }
+  @media screen and (min-width: $xxlarge) {
+    width: 61%;
+    top: 3% !important;
+    right: -16%;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 68%;
     top: 17% !important;
@@ -387,6 +445,12 @@ $xlarge: 1200px;
   //   left: 0;
   //   width: 46%;
   // }
+  @media screen and (min-width: $xxlarge) {
+    width: 63%;
+    top: 4% !important;
+    left: 0;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 78%;
     top: 25% !important;
@@ -441,6 +505,12 @@ $xlarge: 1200px;
   //   // width: 603px * 1.2;
   //   width: 50%;
   // }
+  @media screen and (min-width: $xxlarge) {
+    width: 53%;
+    bottom: 0 !important;
+    right: 0;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 67%;
     bottom: -41px !important;
@@ -493,6 +563,11 @@ $xlarge: 1200px;
   //   bottom: 10%;
   //   z-index: 16;
   // }
+  @media screen and (min-width: $xxlarge) {
+    top: 55%;
+    z-index: 11;
+  }
+
   @media screen and (max-width: $xlarge) {
     top: 55%;
     z-index: 11;
@@ -529,6 +604,12 @@ $xlarge: 1200px;
   //   // width: 1112px * 1.15;
   //   width: 71%;
   // }
+  @media screen and (min-width: $xxlarge) {
+    width: 66%;
+    right: 0;
+    bottom: 0;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 96%;
     right: 0;
@@ -577,6 +658,10 @@ $xlarge: 1200px;
   //   width: 90%;
   //   transform: translateX(-50%);
   // }
+  @media screen and (min-width: $xxlarge) {
+    width: 102%;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 102%;
   }
