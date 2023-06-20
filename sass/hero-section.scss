@@ -701,14 +701,14 @@ $xxlarge: 1801px;
     right: 0;
   }
 
-  @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
-    top: unset;
-    bottom: 0;
-  }
-
   @media screen and (max-width: $xlargeMD0) and (max-height: $large) {
     top: unset;
     bottom: -10%;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
+    top: unset;
+    bottom: -20%;
   }
 
   @media screen and (max-width: $xlarge) and (max-height: $large) {
@@ -861,7 +861,7 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
-    bottom: -10%;
+    bottom: -22% !important;
   }
 
   @media screen and (max-width: $xlargeMD0) and (max-height: $small) {
