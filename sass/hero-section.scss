@@ -121,7 +121,8 @@ $small: 575px;
 $medium: 786px;
 $large: 992px;
 $xlarge: 1200px;
-$xxlarge: 1201px;
+$xlargeMD: 1800px;
+$xxlarge: 1801px;
 
 .sky-0 {
   position: absolute;
@@ -131,6 +132,12 @@ $xxlarge: 1201px;
   left: 0;
 
   @media screen and (min-width: $xxlarge) {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
     left: 50%;
     transform: translateX(-50%);
     width: 120%;
@@ -155,6 +162,11 @@ $xxlarge: 1201px;
     top: 5% !important;
   }
 
+  @media screen and (max-width: $xlargeMD) {
+    width: 109%;
+    top: 6% !important;
+  }
+
   @media screen and (max-width: $small) {
     width: 250%;
     top: 10% !important;
@@ -175,6 +187,11 @@ $xxlarge: 1201px;
     top: -5% !important;
   }
 
+  @media screen and (max-width: $xlargeMD) {
+    width: 110%;
+    top: -3% !important;
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 10% !important;
@@ -192,6 +209,11 @@ $xxlarge: 1201px;
   @media screen and (min-width: $xxlarge) {
     width: 110%;
     top: 11% !important;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
+    width: 110%;
+    top: 12% !important;
   }
 
   @media screen and (max-width: $small) {
@@ -217,6 +239,13 @@ $xxlarge: 1201px;
   width: 1439px;
 
   @media screen and (min-width: $xxlarge) {
+    width: 110%;
+    top: 19% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (max-width: $xlargeMD) {
     width: 110%;
     top: 19% !important;
     left: 50%;
@@ -260,6 +289,12 @@ $xxlarge: 1201px;
     width: 21%;
     top: 40% !important;
     left: 47%;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
+    width: 21%;
+    top: 40% !important;
+    left: 43%;
   }
 
   @media screen and (max-width: $xlarge) {
@@ -402,6 +437,12 @@ $xxlarge: 1201px;
     right: -16%;
   }
 
+  @media screen and (max-width: $xlargeMD) {
+    width: 66%;
+    top: 6% !important;
+    right: -16%;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 68%;
     top: 17% !important;
@@ -448,6 +489,12 @@ $xxlarge: 1201px;
   @media screen and (min-width: $xxlarge) {
     width: 63%;
     top: 4% !important;
+    left: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
+    width: 53%;
+    top: 8% !important;
     left: 0;
   }
 
@@ -507,6 +554,12 @@ $xxlarge: 1201px;
   // }
   @media screen and (min-width: $xxlarge) {
     width: 53%;
+    bottom: 0 !important;
+    right: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
+    width: 59%;
     bottom: 0 !important;
     right: 0;
   }
@@ -610,6 +663,12 @@ $xxlarge: 1201px;
     bottom: 0;
   }
 
+  @media screen and (max-width: $xlargeMD) {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 96%;
     right: 0;
@@ -659,6 +718,10 @@ $xxlarge: 1201px;
   //   transform: translateX(-50%);
   // }
   @media screen and (min-width: $xxlarge) {
+    width: 102%;
+  }
+
+  @media screen and (max-width: $xlargeMD) {
     width: 102%;
   }
 
