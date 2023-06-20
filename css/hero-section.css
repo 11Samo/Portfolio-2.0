@@ -160,6 +160,12 @@ header ul a {
     top: 6% !important;
   }
 }
+@media screen and (max-width: 992px) {
+  .cloud-1 {
+    width: 139%;
+    top: 8% !important;
+  }
+}
 @media screen and (max-width: 786px) {
   .cloud-1 {
     width: 150%;
@@ -194,6 +200,17 @@ header ul a {
     top: -3% !important;
   }
 }
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .cloud-2 {
+    top: 2% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cloud-2 {
+    width: 142%;
+    top: 5% !important;
+  }
+}
 @media screen and (max-width: 786px) {
   .cloud-2 {
     width: 150%;
@@ -225,6 +242,17 @@ header ul a {
   .mountain-3 {
     width: 110%;
     top: 12% !important;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .mountain-3 {
+    top: 22% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mountain-3 {
+    width: 110%;
+    top: 19% !important;
   }
 }
 @media screen and (max-width: 786px) {
@@ -274,6 +302,19 @@ header ul a {
     transform: translateX(-50%);
   }
 }
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .mountain-4 {
+    top: 30% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mountain-4 {
+    width: 130%;
+    top: 22% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 786px) {
   .mountain-4 {
     width: 133%;
@@ -304,6 +345,24 @@ header ul a {
     transform: translateX(-50%);
   }
 }
+@media screen and (max-width: 1801px) and (max-height: 786px) {
+  .mountain-5 {
+    top: 35% !important;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .mountain-5 {
+    top: 39% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .mountain-5 {
+    width: 108%;
+    top: 34% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 @media screen and (max-width: 786px) {
   .mountain-5 {
     width: 150%;
@@ -329,15 +388,22 @@ header ul a {
 @media screen and (min-width: 1801px) {
   .river-6 {
     width: 21%;
-    top: 40% !important;
+    top: 43% !important;
     left: 47%;
   }
 }
 @media screen and (max-width: 1800px) {
   .river-6 {
     width: 21%;
-    top: 40% !important;
+    top: 44% !important;
     left: 43%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .river-6 {
+    width: 21%;
+    top: 42% !important;
+    left: 36%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -486,6 +552,13 @@ header ul a {
     right: -16%;
   }
 }
+@media screen and (max-width: 1600px) {
+  .mountain-9 {
+    width: 66%;
+    top: 14% !important;
+    right: -16%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .mountain-9 {
     width: 68%;
@@ -500,11 +573,21 @@ header ul a {
     right: -16%;
   }
 }
+@media screen and (max-width: 992px) and (max-height: 786px) {
+  .mountain-9 {
+    top: 36% !important;
+  }
+}
 @media screen and (max-width: 786px) {
   .mountain-9 {
     width: 90%;
     top: 38% !important;
     right: -5%;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 992px) {
+  .mountain-9 {
+    top: 50% !important;
   }
 }
 @media screen and (max-width: 575px) {
@@ -535,6 +618,13 @@ header ul a {
     left: 0;
   }
 }
+@media screen and (max-width: 1600px) {
+  .mountain-10 {
+    width: 64%;
+    top: 19% !important;
+    left: 0;
+  }
+}
 @media screen and (max-width: 1200px) {
   .mountain-10 {
     width: 78%;
@@ -544,16 +634,21 @@ header ul a {
 }
 @media screen and (max-width: 992px) {
   .mountain-10 {
-    width: 78%;
-    top: 28% !important;
+    width: 102%;
+    top: 32% !important;
     left: 0;
   }
 }
 @media screen and (max-width: 786px) {
   .mountain-10 {
-    width: 85%;
-    top: 53% !important;
+    width: 84%;
+    top: 42% !important;
     left: 0;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 992px) {
+  .mountain-10 {
+    top: 50% !important;
   }
 }
 @media screen and (max-width: 575px) {
@@ -592,29 +687,77 @@ header ul a {
 @media screen and (min-width: 1801px) {
   .forest-12 {
     width: 53%;
-    bottom: 0 !important;
+    bottom: 0;
     right: 0;
+  }
+}
+@media screen and (min-width: 1801px) and (max-height: 786px) {
+  .forest-12 {
+    top: 25%;
+  }
+}
+@media screen and (max-width: 1800px) and (max-height: 992px) {
+  .forest-12 {
+    top: 23%;
+  }
+}
+@media screen and (max-width: 1600px) and (max-height: 786px) {
+  .forest-12 {
+    top: 35%;
   }
 }
 @media screen and (max-width: 1800px) {
   .forest-12 {
     width: 59%;
-    bottom: 0 !important;
+    bottom: 0;
     right: 0;
+  }
+}
+@media screen and (max-width: 1800px) and (max-height: 786px) {
+  .forest-12 {
+    top: 24%;
   }
 }
 @media screen and (max-width: 1200px) {
   .forest-12 {
     width: 67%;
-    bottom: -41px !important;
+    bottom: -41px;
     right: 0;
   }
 }
 @media screen and (max-width: 992px) {
   .forest-12 {
     width: 78%;
-    bottom: -41px !important;
+    bottom: -41px;
     right: 0;
+  }
+}
+@media screen and (max-width: 1600px) and (max-height: 786px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1600px) and (max-height: 992px) {
+  .forest-12 {
+    top: unset;
+    bottom: -10%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 992px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .forest-12 {
+    top: 49%;
+  }
+}
+@media screen and (max-width: 992px) and (max-height: 992px) {
+  .forest-12 {
+    top: 50%;
   }
 }
 @media screen and (max-width: 786px) {
@@ -624,11 +767,40 @@ header ul a {
     right: 0;
   }
 }
+@media screen and (max-width: 786px) and (max-height: 992px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 786px) {
+  .forest-12 {
+    top: 51%;
+  }
+}
 @media screen and (max-width: 575px) {
   .forest-12 {
     width: 78%;
     bottom: 0;
     right: 0;
+  }
+}
+@media screen and (max-width: 575px) and (max-height: 992px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 575px) and (max-height: 786px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 575px) and (max-height: 575px) {
+  .forest-12 {
+    top: unset;
+    bottom: 0;
   }
 }
 
@@ -649,10 +821,26 @@ header ul a {
     z-index: 11;
   }
 }
+@media screen and (min-width: 1801px) and (max-height: 786px) {
+  .portfolio {
+    top: 70%;
+    z-index: 16;
+  }
+}
 @media screen and (max-width: 1200px) {
   .portfolio {
     top: 55%;
     z-index: 11;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .portfolio {
+    top: 62% !important;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 575px) {
+  .portfolio {
+    z-index: 16;
   }
 }
 @media screen and (max-width: 992px) {
@@ -661,11 +849,31 @@ header ul a {
     z-index: 11;
   }
 }
-@media screen and (min-height: 325px) and (max-height: 700px) {
+@media screen and (max-width: 992px) and (max-height: 786px) {
   .portfolio {
-    top: 55% !important;
-    font-size: 40px;
-    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+    top: 61%;
+    z-index: 13;
+  }
+}
+@media screen and (max-width: 992px) and (max-height: 575px) {
+  .portfolio {
+    z-index: 16;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .portfolio {
+    z-index: 16;
+  }
+}
+@media screen and (max-width: 992px) and (max-height: 786px) {
+  .portfolio {
+    z-index: 16;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 786px) {
+  .portfolio {
+    top: 61%;
+    z-index: 16;
   }
 }
 @media screen and (max-width: 575px) {
@@ -679,7 +887,6 @@ header ul a {
 .forest-14 {
   position: absolute;
   z-index: 15;
-  bottom: -50px;
   left: 0;
   width: 1112px;
 }
@@ -690,11 +897,36 @@ header ul a {
     bottom: 0;
   }
 }
+@media screen and (min-width: 1801px) and (max-height: 786px) {
+  .forest-14 {
+    bottom: 0;
+  }
+}
 @media screen and (max-width: 1800px) {
   .forest-14 {
     width: 100%;
     right: 0;
     bottom: 0;
+  }
+}
+@media screen and (max-width: 1800px) and (max-height: 992px) {
+  .forest-14 {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1800px) and (max-height: 786px) {
+  .forest-14 {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1600px) and (max-height: 786px) {
+  .forest-14 {
+    bottom: -10%;
+  }
+}
+@media screen and (max-width: 1600px) and (max-height: 575px) {
+  .forest-14 {
+    width: 50%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -704,11 +936,27 @@ header ul a {
     bottom: 0;
   }
 }
+@media screen and (max-width: 1200px) and (max-height: 786px) {
+  .forest-14 {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 1200px) and (max-height: 575px) {
+  .forest-14 {
+    width: 58%;
+  }
+}
 @media screen and (max-width: 992px) {
   .forest-14 {
     width: 96%;
     right: 0;
     bottom: 0;
+  }
+}
+@media screen and (max-width: 992px) and (max-height: 575px) {
+  .forest-14 {
+    bottom: 0;
+    width: 68%;
   }
 }
 @media screen and (max-width: 786px) {
@@ -718,6 +966,22 @@ header ul a {
     bottom: 0;
   }
 }
+@media screen and (max-width: 786px) and (max-height: 992px) {
+  .forest-14 {
+    width: 160%;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 786px) {
+  .forest-14 {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 786px) and (max-height: 575px) {
+  .forest-14 {
+    bottom: 0;
+    width: 59%;
+  }
+}
 @media screen and (max-width: 575px) {
   .forest-14 {
     width: 100%;
@@ -725,14 +989,15 @@ header ul a {
     bottom: 0;
   }
 }
-@media screen and (max-width: 575px) and (max-height: 1000px) {
+@media screen and (max-width: 575px) and (max-height: 992px) {
   .forest-14 {
-    width: 150%;
+    bottom: 0;
   }
 }
-@media screen and (max-width: 575px) and (max-height: 820px) {
+@media screen and (max-width: 575px) and (max-height: 786px) {
   .forest-14 {
-    width: 100%;
+    top: unset;
+    bottom: 0;
   }
 }
 

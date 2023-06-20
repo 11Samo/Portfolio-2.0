@@ -121,6 +121,7 @@ $small: 575px;
 $medium: 786px;
 $large: 992px;
 $xlarge: 1200px;
+$xlargeMD0: 1600px;
 $xlargeMD: 1800px;
 $xxlarge: 1801px;
 
@@ -167,6 +168,11 @@ $xxlarge: 1801px;
     top: 6% !important;
   }
 
+  @media screen and (max-width: $large) {
+    width: 139%;
+    top: 8% !important;
+  }
+
   @media screen and (max-width: $medium) {
     width: 150%;
     top: 14% !important;
@@ -197,6 +203,15 @@ $xxlarge: 1801px;
     top: -3% !important;
   }
 
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 2% !important;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 142%;
+    top: 5% !important;
+  }
+
   @media screen and (max-width: $medium) {
     width: 150%;
     top: 13% !important;
@@ -224,6 +239,15 @@ $xxlarge: 1801px;
   @media screen and (max-width: $xlargeMD) {
     width: 110%;
     top: 12% !important;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 22% !important;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 110%;
+    top: 19% !important;
   }
 
   @media screen and (max-width: $medium) {
@@ -267,6 +291,17 @@ $xxlarge: 1801px;
     transform: translateX(-50%);
   }
 
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 30% !important;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 130%;
+    top: 22% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media screen and (max-width: $medium) {
     width: 133%;
     top: 29% !important;
@@ -294,6 +329,21 @@ $xxlarge: 1801px;
     transform: translateX(-50%);
   }
 
+  @media screen and (max-width: $xxlarge) and (max-height: $medium) {
+    top: 35% !important;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 39% !important;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 108%;
+    top: 34% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media screen and (max-width: $medium) {
     width: 150%;
     top: 41% !important;
@@ -316,14 +366,20 @@ $xxlarge: 1801px;
 
   @media screen and (min-width: $xxlarge) {
     width: 21%;
-    top: 40% !important;
+    top: 43% !important;
     left: 47%;
   }
 
   @media screen and (max-width: $xlargeMD) {
     width: 21%;
-    top: 40% !important;
+    top: 44% !important;
     left: 43%;
+  }
+
+  @media screen and (max-width: $xlargeMD0) {
+    width: 21%;
+    top: 42% !important;
+    left: 36%;
   }
 
   @media screen and (max-width: $xlarge) {
@@ -478,6 +534,12 @@ $xxlarge: 1801px;
     right: -16%;
   }
 
+  @media screen and (max-width: $xlargeMD0) {
+    width: 66%;
+    top: 14% !important;
+    right: -16%;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 68%;
     top: 17% !important;
@@ -490,10 +552,18 @@ $xxlarge: 1801px;
     right: -16%;
   }
 
+  @media screen and (max-width: $large) and (max-height: $medium) {
+    top: 36% !important;
+  }
+
   @media screen and (max-width: $medium) {
     width: 90%;
     top: 38% !important;
     right: -5%;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $large) {
+    top: 50% !important;
   }
 
   @media screen and (max-width: $small) {
@@ -533,6 +603,12 @@ $xxlarge: 1801px;
     left: 0;
   }
 
+  @media screen and (max-width: $xlargeMD0) {
+    width: 64%;
+    top: 19% !important;
+    left: 0;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 78%;
     top: 25% !important;
@@ -540,15 +616,19 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $large) {
-    width: 78%;
-    top: 28% !important;
+    width: 102%;
+    top: 32% !important;
     left: 0;
   }
 
   @media screen and (max-width: $medium) {
-    width: 85%;
-    top: 53% !important;
+    width: 84%;
+    top: 42% !important;
     left: 0;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $large) {
+    top: 50% !important;
   }
 
   @media screen and (max-width: $small) {
@@ -581,34 +661,67 @@ $xxlarge: 1801px;
   right: 480px;
   width: 603px;
 
-  // @media screen and (max-width: 1920px) {
-  //   bottom: 0;
-  //   right: 0;
-  //   // width: 603px * 1.2;
-  //   width: 50%;
-  // }
   @media screen and (min-width: $xxlarge) {
     width: 53%;
-    bottom: 0 !important;
+    bottom: 0;
     right: 0;
+  }
+
+  @media screen and (min-width: $xxlarge) and (max-height: $medium) {
+    top: 25%;
+  }
+
+  @media screen and (max-width: $xlargeMD) and (max-height: $large) {
+    top: 23%;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
+    top: 35%;
   }
 
   @media screen and (max-width: $xlargeMD) {
     width: 59%;
-    bottom: 0 !important;
+    bottom: 0;
     right: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD) and (max-height: $medium) {
+    top: 24%;
   }
 
   @media screen and (max-width: $xlarge) {
     width: 67%;
-    bottom: -41px !important;
+    bottom: -41px;
     right: 0;
   }
 
   @media screen and (max-width: $large) {
     width: 78%;
-    bottom: -41px !important;
+    bottom: -41px;
     right: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
+    top: unset;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $large) {
+    top: unset;
+    bottom: -10%;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $large) {
+    top: unset;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 49%;
+  }
+
+  @media screen and (max-width: $large) and (max-height: $large) {
+    top: 50%;
   }
 
   @media screen and (max-width: $medium) {
@@ -617,10 +730,34 @@ $xxlarge: 1801px;
     right: 0;
   }
 
+  @media screen and (max-width: $medium) and (max-height: $large) {
+    top: unset;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $medium) {
+    top: 51%;
+  }
+
   @media screen and (max-width: $small) {
     width: 78%;
     bottom: 0;
     right: 0;
+  }
+
+  @media screen and (max-width: $small) and (max-height: $large) {
+    top: unset;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $small) and (max-height: $medium) {
+    top: unset;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $small) and (max-height: $small) {
+    top: unset;
+    bottom: 0;
   }
 }
 
@@ -635,25 +772,14 @@ $xxlarge: 1801px;
   bottom: 10%;
   z-index: 16;
 
-  // @media screen and (max-height: 759px) {
-  //   z-index: 14;
-  //   bottom: 35%;
-  // }
-  // @media screen and (max-height: 600px) {
-  //   top: 50%;
-  // }
-
-  // @media screen and (max-height: 710px) {
-  //   top: 45%;
-  // }
-
-  // @media screen and (max-height: 705px) {
-  //   bottom: 10%;
-  //   z-index: 16;
-  // }
   @media screen and (min-width: $xxlarge) {
     top: 55%;
     z-index: 11;
+  }
+
+  @media screen and (min-width: $xxlarge) and (max-height: $medium) {
+    top: 70%;
+    z-index: 16;
   }
 
   @media screen and (max-width: $xlarge) {
@@ -661,15 +787,39 @@ $xxlarge: 1801px;
     z-index: 11;
   }
 
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    top: 62% !important;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $small) {
+    z-index: 16;
+  }
+
   @media screen and (max-width: $large) {
     top: 55%;
     z-index: 11;
   }
 
-  @media screen and (min-height: 325px) and (max-height: 700px) {
-    top: 55% !important;
-    font-size: 40px;
-    text-shadow: 8px 7px 8px rgba(0, 0, 0, 0.5);
+  @media screen and (max-width: $large) and (max-height: $medium) {
+    top: 61%;
+    z-index: 13;
+  }
+
+  @media screen and (max-width: $large) and (max-height: $small) {
+    z-index: 16;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    z-index: 16;
+  }
+
+  @media screen and (max-width: $large) and (max-height: $medium) {
+    z-index: 16;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $medium) {
+    top: 61%;
+    z-index: 16;
   }
 
   @media screen and (max-width: $small) {
@@ -682,19 +832,17 @@ $xxlarge: 1801px;
 .forest-14 {
   position: absolute;
   z-index: 15;
-  bottom: -50px;
+  // bottom: -50px;
   left: 0;
   width: 1112px;
 
-  // @media screen and (max-width: 1920px) {
-  //   bottom: 0;
-  //   left: 0;
-  //   // width: 1112px * 1.15;
-  //   width: 71%;
-  // }
   @media screen and (min-width: $xxlarge) {
     width: 66%;
     right: 0;
+    bottom: 0;
+  }
+
+  @media screen and (min-width: $xxlarge) and (max-height: $medium) {
     bottom: 0;
   }
 
@@ -704,10 +852,34 @@ $xxlarge: 1801px;
     bottom: 0;
   }
 
+  @media screen and (max-width: $xlargeMD) and (max-height: $large) {
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD) and (max-height: $medium) {
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $medium) {
+    bottom: -10%;
+  }
+
+  @media screen and (max-width: $xlargeMD0) and (max-height: $small) {
+    width: 50%;
+  }
+
   @media screen and (max-width: $xlarge) {
     width: 96%;
     right: 0;
     bottom: 0;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $medium) {
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $xlarge) and (max-height: $small) {
+    width: 58%;
   }
 
   @media screen and (max-width: $large) {
@@ -716,10 +888,28 @@ $xxlarge: 1801px;
     bottom: 0;
   }
 
+  @media screen and (max-width: $large) and (max-height: $small) {
+    bottom: 0;
+    width: 68%;
+  }
+
   @media screen and (max-width: $medium) {
     width: 127%;
     left: -14%;
     bottom: 0;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $large) {
+    width: 160%;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $medium) {
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $medium) and (max-height: $small) {
+    bottom: 0;
+    width: 59%;
   }
 
   @media screen and (max-width: $small) {
@@ -728,13 +918,22 @@ $xxlarge: 1801px;
     bottom: 0;
   }
 
-  @media screen and (max-width: $small) and (max-height: 1000px) {
-    width: 150%;
+  @media screen and (max-width: $small) and (max-height: $large) {
+    bottom: 0;
   }
 
-  @media screen and (max-width: $small) and (max-height: 820px) {
-    width: 100%;
+  @media screen and (max-width: $small) and (max-height: $medium) {
+    top: unset;
+    bottom: 0;
   }
+
+  // @media screen and (max-width: $small) and (max-height: 1000px) {
+  //   width: 150%;
+  // }
+
+  // @media screen and (max-width: $small) and (max-height: 820px) {
+  //   width: 100%;
+  // }
 }
 
 .trees-15 {
