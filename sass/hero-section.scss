@@ -167,6 +167,11 @@ $xxlarge: 1801px;
     top: 6% !important;
   }
 
+  @media screen and (max-width: $medium) {
+    width: 150%;
+    top: 14% !important;
+  }
+
   @media screen and (max-width: $small) {
     width: 250%;
     top: 10% !important;
@@ -192,6 +197,11 @@ $xxlarge: 1801px;
     top: -3% !important;
   }
 
+  @media screen and (max-width: $medium) {
+    width: 150%;
+    top: 13% !important;
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 10% !important;
@@ -214,6 +224,11 @@ $xxlarge: 1801px;
   @media screen and (max-width: $xlargeMD) {
     width: 110%;
     top: 12% !important;
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 160%;
+    top: 24% !important;
   }
 
   @media screen and (max-width: $small) {
@@ -252,6 +267,13 @@ $xxlarge: 1801px;
     transform: translateX(-50%);
   }
 
+  @media screen and (max-width: $medium) {
+    width: 133%;
+    top: 29% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   @media screen and (max-width: $small) {
     width: 190%;
     top: 38% !important;
@@ -268,6 +290,13 @@ $xxlarge: 1801px;
   @media screen and (min-width: $xxlarge) {
     width: 108%;
     top: 29% !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 150%;
+    top: 41% !important;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -307,6 +336,12 @@ $xxlarge: 1801px;
     width: 31%;
     top: 42% !important;
     left: 33%;
+  }
+
+  @media screen and (max-width: $medium) {
+    width: 34%;
+    top: 45% !important;
+    left: 8%;
   }
 
   @media screen and (max-width: $small) {
@@ -511,8 +546,8 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $medium) {
-    width: 78%;
-    top: 45% !important;
+    width: 85%;
+    top: 53% !important;
     left: 0;
   }
 
@@ -577,7 +612,7 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $medium) {
-    width: 78%;
+    width: 85%;
     bottom: 0;
     right: 0;
   }
@@ -682,8 +717,8 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $medium) {
-    width: 106%;
-    right: 0;
+    width: 127%;
+    left: -14%;
     bottom: 0;
   }
 
@@ -734,7 +769,7 @@ $xxlarge: 1801px;
   }
 
   @media screen and (max-width: $medium) {
-    width: 110%;
+    width: 104%;
   }
 
   @media screen and (max-width: $small) {
